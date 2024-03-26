@@ -15,4 +15,11 @@
     definePageMeta({
       layout: "products",
     })
+
+    useHead({
+    title: 'Nuxt3APP | Merch',
+    meta: [
+      { name: 'description', content: 'Nuxt 3 Merch'}
+    ]
+  })
   </script>
