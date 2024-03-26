@@ -21,5 +21,5 @@
     //   method: 'post',
     //   body: {age: 30}
     // })
-    const { data } = await useFetch('/api/custom')
+    const { data } = await useFetch('/api/currency/LKR')
   </script>
