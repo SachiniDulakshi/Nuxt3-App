@@ -1,8 +1,11 @@
 <template>
   <div>
     <header class="shadow-sm bg-white">
-      <nav class="container mx-auto p-4">
+      <nav class="container mx-auto p-4 flex justify-between">
         <NuxtLink to="/products" class="font-bold">Nuxt3APP Merch</NuxtLink>
+        <ul class="flex gap-4">
+          <li><nuxt-link to="/products/cart.vue"><Icon name="icons8:add-shopping-cart" /></nuxt-link></li>   
+        </ul>
       </nav>
     </header>
     <div class="container mx-auto p-4">
