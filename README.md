@@ -18,6 +18,21 @@ yarn install
 
 # bun
 bun install
+
+
+#icons
+
+#npm
+npm install --save-dev nuxt-icon
+
+# Using yarn
+yarn add --dev nuxt-icon
+
+
+# Install the currencyapi JavaScript SDK
+npm install @everapi/currencyapi-js --save
+
+
 ```
 
 ## Development Server
